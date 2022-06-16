@@ -1,0 +1,312 @@
+body{
+    background: rgb(249,247,245);
+    background: radial-gradient(circle, rgba(249,247,245,1) 0%, rgba(250,242,234,1) 25%, rgba(231,230,230,1) 50%, rgba(238,233,228,1) 75%, rgba(255,255,255,1) 100%);
+    color: #070D0D;
+    margin: auto;
+    padding: 0%;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    
+      
+
+}
+@font-face {
+    font-family: 'gotham';
+    src: url(./Assets/Fonts/GothamBook.ttf);
+}
+@font-face {
+    font-family: 'gothamlight';
+    src: url(./Assets/Fonts/Gotham-Thin.otf);
+}
+@font-face {
+    font-family: 'gothamxlight';
+    src: url(./Assets/Fonts/Gotham-XLight.otf);
+}
+@font-face {
+    font-family: 'gothamlightitalic';
+    src: url(./Assets/Fonts/GothamLightItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Xaviero';
+    src: url(./Assets/Fonts/XavieraPro-Regular.ttf);
+}
+
+*{
+    size: 200%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.box{
+    background-image: url(./Assets/images/pexels-charlotte-may-5825604.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 1500px;
+    height: 15px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+    
+    
+}
+
+.container2{
+    margin: auto;
+    width: 500px;
+    height: 150px;
+    font-size: 16px;
+    font-style: none;
+    font-weight: lighter;
+    font-family: 'gothamlightitalic';
+    
+    
+    
+}
+
+.bot_text{
+    text-align: center;
+    border: 0.5px #070D0D solid;
+    padding: 5px;
+    font-size: 16px;
+    font-style: none;
+    font-weight: lighter;
+    font-family: 'gothamlightitalic';
+    margin-top: 60px;
+    
+    
+}
+.dot{
+    font-size: larger;
+    text-decoration: none;
+    font-style: normal;
+    
+
+}
+
+.dot:hover{
+    font-weight: bold;
+    font-size: larger;
+    font-style: normal;
+    color:#FF0000;
+}
+
+.avi{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.html{
+    color: #FF0000;
+    text-decoration: none;
+    font-style: italic;
+}
+.html:hover{
+    color: rgb(255, 0, 51);
+    font-style: italic;
+    font-weight: bold;
+    
+    
+}
+.css{
+    color: #FF0000;
+}
+.css:hover{
+    color: rgb(255, 0, 51);
+    font-weight: bold;
+}
+
+.link{
+    font-style: bold;
+    font-weight: bold;
+}
+
+.link:hover{
+    color: #FF0000;
+    font-weight: bold;
+    text-decoration: 1px #FF0000 underline;
+    
+}
+.avi{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    
+}
+
+.shittalk{
+    color: #070D0D;
+    background: none;
+    font-style: italic;
+    text-decoration: none;
+    font-family: 'Gotham';
+    text-decoration: 0.5px #070D0D line-through;
+
+}
+
+h1{
+    font-family: 'gotham';
+    margin: auto;
+    text-align: center;
+    border: none;
+    font-size: 50px;
+    width: 1500px;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.header2{
+    text-decoration: none;
+    color: #070D0D;
+    font-size: 16px;
+    width: 500px;
+    margin: auto;
+    padding-top: 20px;
+    font-family: 'gotham';
+    font-weight: 200;
+}
+
+.longp{
+    font-family: 'gothamxlight';
+    background-color: #F9F7F5;
+    color: #070D0D;
+    max-width: 1280px;
+    font-style: none;
+    text-decoration: none;
+    margin: auto;
+    font-size: 12x;
+    line-height: 1.5em;
+    font-weight: 600;
+    padding-top: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.container{
+    text-align: center;
+    margin-top: 20px;
+}
+.container a:hover{
+    color:#6e6e6e;
+}
+.container a:active{
+    color:#ffffff;
+}
+
+.bilder{
+    display: inline-block;
+    margin:5px 70px;
+    padding:5px;
+    padding-bottom: 0%;
+    width: 324px;
+    height: 576px;
+}
+.container a{
+    background-color: none;
+    color:#070D0D;
+    height: 20px;
+    max-width: 324px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.box3{
+    width: 30px;
+    height: 30px;
+}
+.button h1{
+    width: 30px;
+    height: 30px;
+    text-align: left;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: #070D0D;
+}
+hr{
+
+    visibility: hidden;
+}
+.img_box{
+    margin: 0%;
+    
+}
+
+.img_box p{
+    text-align: center;
+    font-style: none;
+    font-family: 'gotham';
+    font-weight: bold;
+    font-size: 60%;
+    padding: 10px;
+    margin: 10px;
+}
+.img1{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 0.5px #070D0D solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10px;
+
+}
+
+.img1:hover{
+    border: 2px #070D0D solid;
+}
+
+
+footer{
+    position: static;
+    text-align: center;
+    margin-top: 120px;
+}
+
+footer{
+    font-weight: 100;
+    font-size: 12px;
+    color: #070D0D;
+    text-decoration: none;
+    
+}
+
+.alfmobt{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.alfmob{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.alfmob:hover{
+    color: #6e6e6e;
+}
+.alfmob:active{
+    color: #FF0000;
+}
